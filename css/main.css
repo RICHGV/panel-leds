@@ -1,0 +1,33 @@
+/* css/main.css */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #222;
+}
+
+div#panel {
+    width: 80px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+div.row {
+    height: 20px;
+}
+
+div.led {
+    width: 20px;
+    height: 20px;
+    background-color: #990022;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+}
+
+div.reset {
+    clear: both;
+}
